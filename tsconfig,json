@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": true,
+    "typeRoots": ["./types", "./node_modules/@types"],
+    "types": [],
+    "rootDir": "./",
+    "baseUrl": "./",
+    "esModuleInterop": true
+  },
+  "include": ["./**/*.ts"],
+  "files": ["./index.ts"]
+}
